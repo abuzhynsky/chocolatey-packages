@@ -13,6 +13,11 @@
     <tags>tail log tailblazer</tags>
     <licenseUrl>https://github.com/RolandPheasant/TailBlazer/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/abuzhynsky/chocolatey-packages</packageSourceUrl>
+    <releaseNotes>https://github.com/RolandPheasant/TailBlazer/releases</releaseNotes>
+    <mailingListUrl>https://gitter.im/RolandPheasant/TailBlazer</mailingListUrl>
+    <bugTrackerUrl>https://github.com/RolandPheasant/TailBlazer/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/RolandPheasant/TailBlazer</projectSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
