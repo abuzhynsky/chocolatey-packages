@@ -6,7 +6,7 @@ $lnkPath = $desktopPath + "\TailBlazer.lnk"
 $exePath = $unzipLocation + "\" + $packageName + ".exe"
 
 Write-Host "Uninstalling previous version"
-Remove-Item $unzipLocation -Force -Recurse -Exclude $unzipLocation\logs -ErrorAction SilentlyContinue
+Remove-Item $unzipLocation -Force -Recurse -Exclude $unzipLocation\logs,TailBlazer.exe.gui -ErrorAction SilentlyContinue
 Write-Host "Done"
 
 Install-ChocolateyZipPackage $packageName $url $unzipLocation
